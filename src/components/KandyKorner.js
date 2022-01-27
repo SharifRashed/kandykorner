@@ -4,6 +4,7 @@ import { NavBar } from "./nav/NavBar"
 import { ApplicationViews } from "./ApplicationViews"
 import { ProductList } from "./products/productList"
 import { LocationList } from "./locations/locationList"
+import { Employees } from "./employees/employees"
 
 
 export const KandyKorner = () => {
@@ -17,6 +18,9 @@ export const KandyKorner = () => {
             </Route>
             <Route path="/locations">
                 <LocationList />
+            </Route>
+            <Route path="/employees">
+                <Employees />
             </Route>
         </>
     )
