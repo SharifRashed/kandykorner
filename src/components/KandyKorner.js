@@ -5,6 +5,7 @@ import { ApplicationViews } from "./ApplicationViews"
 import { ProductList } from "./products/productList"
 import { LocationList } from "./locations/locationList"
 import { Employees } from "./employees/employees"
+import { Customers } from "./customers/customers.js"
 
 
 export const KandyKorner = () => {
@@ -21,6 +22,9 @@ export const KandyKorner = () => {
             </Route>
             <Route path="/employees">
                 <Employees />
+            </Route>
+            <Route path="/customers">
+                <Customers />
             </Route>
         </>
     )
